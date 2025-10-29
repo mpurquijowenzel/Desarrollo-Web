@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #4a7a91; /* Verde pastel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    background-color: #fff9c4; /* Amarillo pastel */
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* CONTENIDO PRINCIPAL CENTRADO */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* CAJA DE CLIMA */
+.weather-app {
+    background-color: #2e7d32; /* Verde oscuro */
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* INPUT Y BOTÓN */
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#city-input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    font-size: 1em;
+    width: 70%;
+    color: #333;
+}
+
+#search-button {
+    padding: 10px 15px;
+    background-color: #e1bee7; /* Morado claro pastel */
+    color: #333;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #ce93d8;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #d7ccc8; /* Café claro pastel */
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    width: 100%;
+}
